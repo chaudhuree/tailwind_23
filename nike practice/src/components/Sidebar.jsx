@@ -6,6 +6,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
     <section
       className={`fixed top-0  w-[300px] bg-coral-red  pt-10 min-h-screen transition duration-300 ease-in-out
       ${showSidebar ? "left-0" : " -left-[300px] z-10"}
+      lg:hidden
       `}
     >
       <div className="flex flex-col items-center justify-evenly">
